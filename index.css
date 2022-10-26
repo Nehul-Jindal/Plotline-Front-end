@@ -1,0 +1,190 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 20px 0 25px 0;
+}
+
+blockquote {
+  font-size: 1.4em;
+  width: 80%;
+  margin: 50px auto;
+  font-family: Open Sans;
+  font-style: italic;
+  color: #555555;
+  padding: 1.2em 30px 1.2em 75px;
+  border-left: 8px solid #9d7ff2;
+  line-height: 1.6;
+  position: relative;
+  background: #ededed;
+}
+
+a {
+  color: #9d7ff2;
+}
+
+blockquote::before {
+  font-family: Arial;
+  content: "\201C";
+  color: #9d7ff2;
+  font-size: 4em;
+  position: absolute;
+  left: 10px;
+  top: -10px;
+}
+
+blockquote::after {
+  content: "";
+}
+
+blockquote span {
+  display: block;
+  color: #333333;
+  font-style: normal;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+.App {
+  color: rgb(17, 17, 17);
+  padding-bottom: 25px;
+}
+
+.format-toolbar {
+  display: flex;
+  padding: 3px 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.tooltip-icon-button {
+  cursor: pointer;
+  border: 0;
+  color: grey;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.icon-active {
+  color: black;
+  border: solid 1px;
+  border-radius: 12%;
+}
+
+.image-upload > input {
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.image-upload {
+  width: 30px;
+}
+
+.btn {
+  margin-left: 10px;
+}
+.save {
+  margin-left: 190px;
+}
+
+/* MAIN HEADER */
+
+.header {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+.logo img {
+  width: 75px;
+  border-right: 1px solid #ddd;
+}
+.logo p {
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(1, 47, 133);
+}
+.page-title {
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(1, 47, 133);
+}
+.container {
+  width: 80%;
+  padding: 10px;
+  margin: 0 auto;
+}
+.comment-editor {
+  margin-top: 50px;
+}
+.comments-block {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+}
+.comment-red {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.avatar {
+  margin-right: 10px;
+}
+.avatar img {
+  width: 40px;
+}
+.avatar-info p {
+  font-weight: bold;
+  margin-bottom: -1px;
+}
+.wrapper {
+  display: flex;
+}
+.buttons {
+  margin-left: 25px;
+}
+
+.yellow-btn {
+  min-width: 15rem;
+  padding: 5px;
+  background-color: yellow;
+  color: black;
+  border: none;
+  margin: 25px 0;
+}
+.blue-btn {
+  margin: 25px 0;
+
+  border: none;
+  min-width: 15rem;
+  padding: 5px;
+  background-color: blue;
+  color: white;
+}
+.red-btn {
+  margin: 25px 0;
+  margin-top: 50px;
+
+  border: none;
+  min-width: 15rem;
+  padding: 5px;
+  background-color: red;
+  color: white;
+}
